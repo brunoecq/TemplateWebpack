@@ -1,0 +1,41 @@
+@font-face 
+{ 
+	font-family: Lato; 
+	font-style: normal; 
+	font-weight: 300; 
+	src: url(//fonts.gstatic.com/s/lato/v14/KT3KS9Aol4WfR6Vas8kNcg.woff) format("woff");
+}
+
+@font-face 
+{ 
+	font-family: Lato; 
+	font-style: normal; 
+	font-weight: 400; 
+	src: local("Lato Regular"),local(Lato-Regular),url(//fonts.gstatic.com/s/lato/v14/nQhiC-wSiJx0pvEuJl8d8A.eot?#) format("eot"),url(//fonts.gstatic.com/s/lato/v14/1YwB1sO8YE1Lyjf12WNiUA.woff2) format("woff2"),url(//fonts.gstatic.com/s/lato/v14/9k-RPmcnxYEPm8CNFsH2gg.woff) format("woff");
+}
+
+body 
+{ 
+	font-family: 'Lato';
+}
+
+.otro{
+	background: black;
+}body{
+	background: red;
+	height: 204vh;
+}
+
+head .clase
+	{
+	color: red;
+}
+
+head .clase :nth-child(2)
+		{
+	background: white;
+}
+
+.padre head{
+	border: 1px solid black;
+}

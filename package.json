@@ -1,0 +1,40 @@
+{
+  "name": "templatewebpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dll": "webpack --config ./dev/webpack.dll.config.js",
+    "build:dev": "webpack --config ./dev/webpack.dev.config.js --watch"
+  },
+  "author": "BrunoEcq",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "postcss": "^6.0.21",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-font-magician": "^2.1.1",
+    "postcss-loader": "^2.1.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoecq/TemplateWebpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brunoecq/TemplateWebpack/issues"
+  },
+  "homepage": "https://github.com/brunoecq/TemplateWebpack#readme",
+  "description": ""
+}

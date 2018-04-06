@@ -1,0 +1,31 @@
+@import './dos.css';
+
+
+:root{
+ --color:  red;
+ --viewportHeight : 51vh;
+}
+
+body{
+	background: var(--color);
+	height: calc(var(--viewportHeight )* 4);
+}
+
+head
+{
+
+	& .clase
+	{
+		color: red;
+
+		& :nth-child(2)
+		{
+			background: white;
+		}
+	}
+	@nest .padre &
+	{
+		border: 1px solid black;
+	}
+
+}
